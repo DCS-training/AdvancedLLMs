@@ -9,17 +9,17 @@ To address some of these limitations and leverage LLMs for research in a respons
 Each session in this course will feature hands-on exercises, so you will need to bring a laptop to the sessions. Do not worry about the capacity of the laptop you bring; part of the course is about learning what you can run on the computational resources you have access to. This is an advanced-level training. Basic familiarity with command line interfaces, either Unix (Mac/Linux) or PowerShell (Windows), is essential.
 
 ## Installation
-*Clone the repo:*
+**Clone the repo:**
 ```bash
 git clone https://github.com/DCS-training/AdvancedLLMs
 cd cdcs-advanced-llm
 ```
-*Create a virtual environment:*
+**Create a virtual environment:**
 ```
 python3 -m venv venv
 ```
 
-*Activate the virtual environment:*
+**Activate the virtual environment:**
 On Linux/Mac:
 ```
 source venv/bin/activate
@@ -29,7 +29,7 @@ On Windows:
 venv\Scripts\activate
 ```
 
-*Install required packages:*
+**Install required packages:**
 ```
 pip install -r requirements.txt
 ```
