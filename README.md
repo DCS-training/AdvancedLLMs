@@ -1,4 +1,4 @@
-# Advanced Use of LLMs : A CDCS Course
+# Advanced Use of LLMs: Running and customising LLMs on your own laptop
 Author: Martin Disley 
 ## Course Overview
 
