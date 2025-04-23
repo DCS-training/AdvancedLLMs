@@ -15,11 +15,11 @@ Run  your first model:
     ollama run llama3.2
 ```
 
-Try copying that command but stick ":1B" at the end so it looks like this:
+Try copying that command but stick ":1B" (colon + "1B") at the end so it looks like this:
 
 `ollama run llama3.2:1B`
 
-This will download a much smaller model and you'll be able to get started quicker. Once the model has downloaded it should run as a chat. You should be able to start chatting with your model now.
+This will download a much smaller model and you'll be able to get started quicker. Once the model has downloaded it should run an interactive sesssion. You should be able to start chatting with your model now!
 
 To exit the chat type:
 
@@ -58,7 +58,7 @@ Updates a local model by pulling only the differences from the source.
 ## Pulling and Running Models
 Try pulling and running other models:
 
-``
+```
 ollama run granite3.3:2b
 ollama run gemma3:1b
 ollama run phi4-mini:3.8b
