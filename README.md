@@ -8,6 +8,12 @@ To address some of these limitations and leverage LLMs for research in a respons
 
 Each session in this course will feature hands-on exercises, so you will need to bring a laptop to the sessions. Do not worry about the capacity of the laptop you bring; part of the course is about learning what you can run on the computational resources you have access to. This is an advanced-level training. Basic familiarity with command line interfaces, either Unix (Mac/Linux) or PowerShell (Windows), is essential.
 
+## Ollama
+
+The course will centre on getting you familiar with running and manipulating small, locally run LLMs using Ollama. Head to the `ollama-cheatsheet.md` to get started. 
+
+To run the more advanced examples using Ollama's Python API, make sure you have installed Python, and follow the following instructions to install required packages and access the example scripts.
+
 ## Installation
 **Clone the repo:**
 ```bash
