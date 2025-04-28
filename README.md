@@ -1,4 +1,4 @@
-# Advanced Use of LLMs: Running and customising LLMs on your own laptop
+# Advanced Use of LLMs: Running and customising LLMs on your own hardware
 Author: Martin Disley 
 ## Course Overview
 
@@ -18,7 +18,7 @@ To run the more advanced examples using Ollama's Python API, make sure you have 
 **Clone the repo:**
 ```bash
 git clone https://github.com/DCS-training/AdvancedLLMs
-cd cdcs-advanced-llm
+cd AdvancedLLMs
 ```
 **Create a virtual environment:**
 ```
