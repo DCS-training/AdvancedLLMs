@@ -1,7 +1,7 @@
 # Ollama Cheatsheet
 ## Installation
 
-To install Ollama head to the [Ollama website](https://ollama.com) and download the appropriate installer. If you're a Mac or Linux user you can skip this by running this command in the terminal 
+To install Ollama head to the [Ollama website](https://ollama.com) and download the appropriate installer. If you're a Linux user you can skip this by running this command in the terminal 
 
 `curl -fsSL https://ollama.com/install.sh | sh`
 
