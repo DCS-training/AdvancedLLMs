@@ -24,7 +24,7 @@ Hello! It's your friend Mario.
 ```
 
 ## Text File Summariser
-Next week can attempt a small text processing task by passing in text as a prompt. To do this we can utilise both the 
+Next week can attempt a small text processing task by passing in text as a prompt. To do this we can again utilise the `SYSTEM` instruction.
 
 ### Modelfile:
 ```
