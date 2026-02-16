@@ -24,7 +24,7 @@ def process_country_queries(queries, output_file="countries-data.json"):
                     'content': query,
                 }
             ],
-            model='llama3.2:3B',
+            model='llama3.2:3b',
             format=Country.model_json_schema(),
         )
         # Validate and parse the JSON response into a Country instance.
@@ -34,7 +34,7 @@ def process_country_queries(queries, output_file="countries-data.json"):
         print(country)
         
         # Add the country data (as a dictionary) to the list.
-        countries_data.append(country.dict())
+        countries_data.append(country.model_dump())
 
     # Write the collected country data to a JSON file with indentation for readability.
     with open(output_file, "w") as f:
