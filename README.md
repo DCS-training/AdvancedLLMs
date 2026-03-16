@@ -14,18 +14,30 @@ The course will centre on getting you familiar with running and manipulating sma
 
 To run the more advanced examples using Ollama's Python API, make sure you have installed Python, and follow the following instructions to install required packages and access the example scripts.
 
-## Installation
-**Clone the repo:**
+## Setting Up
+
+### The Shell
+
+If you haven’t used a terminal much before, do the first 10 minutes of Software Carpentry’s Shell Intro. That should familiarise you with the basic commands you’ll need in this class.
+
+On Windows, consider using Git Bash (installed with Git) so that common examples like curl, cd, and cat match macOS/Linux tutorials more closely. PowerShell is fine too, but some commands differ (I’ve tried to include PowerShell equivalents in the slides and notes, but this isn’t comprehensive. If you’re on Windows, I would strongly recommend using a Unix-like terminal emulator such as Git Bash).
+
+### Python
+
+You don’t need proficiency in Python for this course but you will need it installed on your machine to run the later examples. Macs these days tend to come with it preinstalled (check in you terminal by running `python3 —version`). If you don’t have it, or want to install a new version, follow this guide for macOS. If you’re on Windows, follow this one.
+
+
+###**Clone the repo:**
 ```bash
 git clone https://github.com/DCS-training/AdvancedLLMs
 cd AdvancedLLMs
 ```
-**Create a virtual environment:**
+###**Create a virtual environment:**
 ```
 python3 -m venv venv
 ```
 
-**Activate the virtual environment:**
+###**Activate the virtual environment:**
 On Linux/Mac:
 ```
 source venv/bin/activate
