@@ -21,7 +21,7 @@ To run the more advanced examples using Ollama's Python API, make sure you have 
 If you haven’t used a terminal much before, do the first 10 minutes of Software Carpentry’s Shell Intro. That should familiarise you with the basic commands you’ll need in this class.
 
 On Windows, consider using Git Bash (installed with Git) so that common examples like curl, cd, and cat match macOS/Linux tutorials more closely. PowerShell is fine too, but some commands differ (I’ve tried to include PowerShell equivalents in the slides and notes, but this isn’t comprehensive. If you’re on Windows, I would strongly recommend using a Unix-like terminal emulator such as Git Bash.
-
+Instructions on how to install Git Bash can be found [here](https://www.codecademy.com/article/how-to-install-git-bash-for-windows-complete-setup-guide).
 
 **This is all you need done ahead of the first class**, but below you can find further setup instructions that you will need throughout the course.
 
