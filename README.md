@@ -20,24 +20,51 @@ To run the more advanced examples using Ollama's Python API, make sure you have 
 
 If you haven’t used a terminal much before, do the first 10 minutes of Software Carpentry’s Shell Intro. That should familiarise you with the basic commands you’ll need in this class.
 
-On Windows, consider using Git Bash (installed with Git) so that common examples like curl, cd, and cat match macOS/Linux tutorials more closely. PowerShell is fine too, but some commands differ (I’ve tried to include PowerShell equivalents in the slides and notes, but this isn’t comprehensive. If you’re on Windows, I would strongly recommend using a Unix-like terminal emulator such as Git Bash).
+On Windows, consider using Git Bash (installed with Git) so that common examples like curl, cd, and cat match macOS/Linux tutorials more closely. PowerShell is fine too, but some commands differ (I’ve tried to include PowerShell equivalents in the slides and notes, but this isn’t comprehensive. If you’re on Windows, I would strongly recommend using a Unix-like terminal emulator such as Git Bash.
+
+
+**This is all you need done ahead of the first class**, but below you can find further setup instructions that you will need throughout the course.
 
 ### Python
+For the second and third classes, we are going to use Python scripts. so you 
 
-You don’t need proficiency in Python for this course but you will need it installed on your machine to run the later examples. Macs these days tend to come with it preinstalled (check in you terminal by running `python3 —version`). If you don’t have it, or want to install a new version, follow this guide for macOS. If you’re on Windows, follow this one.
+You don’t need proficiency in Python for this course, but you will need it installed on your machine to run the later examples. 
 
+To check if you have Python installed, you can run 
+`python3 —version`
+#### On Mac
+Macs these days tend to come with it preinstalled (check in your terminal by running `python3 —version`). 
+If you don’t have it or want to install a new version, follow this guide for macOS.
 
-###**Clone the repo:**
+#### On Windows
+
+- Go to [https://www.python.org/downloads/](https://www.python.org/downloads/)
+- Find the latest stable version of Python for Windows and download it. As per 16/03/26, it is this one (https://www.python.org/downloads/release/pymanager-260/)[https://www.python.org/downloads/release/pymanager-260/]
+- Use the widget to install Python (no need to launch it as well)
+- Open Gitbash and run the following comand
+-  `nano ~/.bashrc` This will open either an existing .bashrc file or will create a new one if you do not have one already (if this is the case, the document will appear empty).
+-  Copy and paste this _export PATH="$PATH:/c/Python35:/c/Python35/Scripts"_
+-  Ctrl+x to close file
+-  Y on the buffer to confirm you want to save the edits
+-  Run `source ~/.bashrc`
+-  You can then run `python --version` to check that you have Python installed and running properly
+
+  
+
+###  Deploy the material
+
+You do not need to run this before the first class; we will run this together in class.
+**Clone the repo**
 ```bash
 git clone https://github.com/DCS-training/AdvancedLLMs
 cd AdvancedLLMs
 ```
-###**Create a virtual environment:**
+**Create a virtual environment:**
 ```
 python3 -m venv venv
 ```
 
-###**Activate the virtual environment:**
+**Activate the virtual environment:**
 On Linux/Mac:
 ```
 source venv/bin/activate
@@ -51,6 +78,7 @@ venv\Scripts\activate
 ```
 pip install -r requirements.txt
 ```
+
 
 ## License
 All material collected here is free to use but is covered by a License: [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/) license
