@@ -39,7 +39,7 @@ If you don’t have it or want to install a new version, follow this guide for m
 #### On Windows
 
 - Go to [https://www.python.org/downloads/](https://www.python.org/downloads/)
-- Find the latest stable version of Python for Windows and download it. As per 16/03/26, it is this one (https://www.python.org/downloads/release/pymanager-260/)[https://www.python.org/downloads/release/pymanager-260/]
+- Find the latest stable version of Python for Windows and download it. As per 16/03/26, it is this one [https://www.python.org/downloads/release/pymanager-260/](https://www.python.org/downloads/release/pymanager-260/)
 - Use the widget to install Python (no need to launch it as well)
 - Open Gitbash and run the following comand
 -  `nano ~/.bashrc` This will open either an existing .bashrc file or will create a new one if you do not have one already (if this is the case, the document will appear empty).
